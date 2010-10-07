@@ -2,9 +2,13 @@ We at Linden Lab offer the official Second Life viewer and the Snowglobe viewer 
 
 If you're looking for a more customized or experimental experience, we do permit you to use third-party software to connect to Second Life from any device (“Third-Party Viewers”). To promote a positive and predictable experience for all Residents of Second Life, we require users of Third-Party Viewers and those who develop or distribute them (“Developers”) to comply with this Policy and the Second Life Terms of Service.
 
-This Policy governs access to Second Life and our technical platform that supports Second Life by any Third-Party Viewer or any third-party software client that logs into our servers. This includes software for viewing Second Life, any chat clients, utilities, bots, and proxies as well as applications that may not be listed in our Viewer Directory.
+This Policy governs access to Second Life and our technical platform that supports Second Life by any Third-Party Viewer, by which we mean any third-party software client, regardless of its source code, that logs into our servers. This includes software for viewing Second Life, any chat clients, utilities, bots, and proxies as well as applications that may not be listed in our Viewer Directory.
 
-All users and Developers of Third-Party Viewers must comply with the following provisions linked to below, in addition to the Second Life Terms of Service. If you do not comply, you are not allowed to use Second Life through a Third-Party Viewer, and in severe cases Linden Lab may terminate your access to Second Life entirely.
+This Policy does not place any restriction on modification or use of our viewer source code that we make available under the GPL. Rather, the Policy sets out requirements for connecting to our Second Life service using a Third-Party Viewer, regardless of the viewer source code used, and for participating in our Viewer Directory.
+
+* * *
+
+All users and Developers of Third-Party Viewers must agree to the following sections linked to below, in addition to the Second Life Terms of Service. If you do not agree, you are not allowed to use Second Life through a Third-Party Viewer.
 
 Required Functionality and Disclosures
 Prohibited Features and Functionality
@@ -20,19 +24,22 @@ If you are a Developer of Third-Party Viewers, we require the following of all T
 
 The Third-Party Viewer must use a protocol that is compatible with the protocol of Linden Lab’s viewers as it is documented in our source code. If your Third-Party Viewer departs from our protocol, you must clearly document your departures either in the source code that you publish for the Third-Party Viewer or in another publicly available location. You must not use our protocol in a way that unduly burdens our servers or interferes with our providing the normal functionality of Second Life.
 Each different version of the Third-Party Viewer must have a unique viewer identifier. You must not use the same viewer identifier as a Linden Lab viewer or another Third-Party Viewer.
+
 If you are a Developer who distributes Third-Party Viewers to others, you must also provide the following disclosures and functionality:
 
-On your software download page or in another location that a user must visit before installing the Third-Party Viewer, you must disclose the following:
+On or linked to from your software download page, or in another location that a user must visit before installing the Third-Party Viewer, you must make the disclosures listed below. For Linux distributions where there is no opportunity to provide the disclosures before installation of the software, you can comply with this requirement by having your software client present the required disclosures or a link to them in a dialogue box that the user must close before entering login credentials for the first time through your software.
+
+You must disclose the following:
+
 The name of the Third-Party Viewer and a disclaimer that “This software is not provided or supported by Linden Lab, the makers of Second Life.” (For more on naming a Third-Party Viewer, see the section below on Third-Party Viewer Branding and Second Life Trademarks.)
 Customer support information for the software. If you do not provide customer support, you must say so.
 Any surprising or unexpected functionality, including any limitations on features and functionality generally available to Second Life users through Linden Lab’s viewers.
-Any content or functionality provided by the Third-Party Viewer that is not PG or not appropriate for all audiences. If you’re uncertain whether specific content or functionality is PG, please err on the side of disclosure.
+Any content or functionality provided by the Third-Party Viewer that is not General or not appropriate for all audiences. If you’re uncertain whether specific content or functionality is General, please err on the side of disclosure.
 A link to your privacy policy explaining your practices regarding any collection, storage, or use of user data. (For more on a privacy policy, see the Data Access and Privacy section below.)
 Installation of your software must be at the user’s direction, and your software must not interfere with the user’s ability to use Second Life with another application. You must have affirmative user consent for any automatic updating or launch of your software.
 Un-installation must be easy and completely remove your software from the user’s computer without damaging it or the user’s ability to use Second Life with another application.
 The Third-Party Viewer must present to users and require user acceptance of the Second Life Terms of Service and any updates to it.
 On the application login screen and in the “About This Viewer” window, you must display the name of the release version and the version number for the Third-Party Viewer.
-Central to Second Life is the principle of shared experience. The services we provide through our viewers, for example, our Land Store, the LindeX exchange, and the Xstreet SL marketplace, are designed to enhance Residents’ shared experience. We may ask you to make changes to your Third-Party Viewer if it disables certain of our services, or if we believe it is inconsistent with the principle of shared experience or otherwise negatively affects the Second Life user experience. If we do, you agree to make the changes we request.
 return to top
 Prohibited Features and Functionality
 If you are a user or Developer of Third-Party Viewers, the following features and functionality are expressly prohibited in all Third-Party Viewers:
@@ -42,7 +49,7 @@ You must not circumvent the Second Life permissions system or any features that 
 You must not alter content metadata like the Second Life creator name or the Second Life owner name.
 You must not use or provide any functionality that Linden Lab’s viewers do not have for exporting content from Second Life unless the functionality verifies that the content to be exported was created by the Second Life user who is using the Third-Party Viewer. Specifically, before allowing the user to export the content, the Third-Party Viewer must verify that the Second Life creator name for each and every content component to be exported, including each and every primitive or other content type, is the same as the Second Life name of the Third-Party Viewer user. This must be done for all content in Second Life, including content that may be set to “full permissions.”
 You must not circumvent any security-related features or measures we may take to limit access to Second Life. For example:
-You must not mask IP or MAC addresses.
+You must not mask IP or MAC addresses. By “mask,” we mean disguising or concealing the IP or MAC address when including it was possible.
 You must not spoof the viewer identifier or the identity of a Third-Party Viewer connecting to Second Life. Each version of a Third-Party Viewer must have a unique viewer identifier and must not use the same viewer identifier as a Linden Lab viewer or another Third-Party Viewer.
 You must not use or distribute features or functionality that deceive, defraud, or harm anyone or that violate any Linden Lab policy or the law. For example:
 You must not transmit any virus, Trojan horse, worm, spyware, phishing or spoofing functionality, or other harmful code.
@@ -60,9 +67,9 @@ If we believe you are or have been associated with activities that violate this 
 If you are a Developer of Third-Party Viewers, you represent and warrant that:
 Your Third-Party Viewers, including all code, content, interfaces and other elements, do not infringe or promote infringement of any intellectual property or proprietary rights;
 You have secured all rights necessary to permit use and distribution of your Third-Party Viewers; and
-You are in full compliance with the terms of the GNU General Public License (“GPL”) and have made publicly available the complete source code for your Third-Party Viewer, if you have based your application on the official Second Life viewer, which we have made available under the GPL. Note that:
-Your published source code must build to the binaries that you distribute; and
-Publishing your source code is required under the GPL for all Third-Party Viewers using our source code and not just for those that may be in the Viewer Directory.
+You are in full compliance with the terms of the GNU General Public License (“GPL”), if your application uses the source code of the official Second Life viewer, which we have made available under the GPL. Note that:
+If you are distributing an application that uses our source code, you must make available the complete source of your application, and that source code must build to the binaries that you distribute; and
+Making your source code available is required under the GPL for all Third-Party Viewers that are distributed and use our source code and not just for those that may be in the Viewer Directory.
 return to top
 Data Access and Privacy
 If you are a user or Developer of Third-Party Viewers, you agree to the following:
@@ -88,10 +95,12 @@ In the “About This Viewer” window for your Third-Party Viewer, you must provide 
 Your Third-Party Viewer may only display the Second Life splash screen that is shown at login on Linden Lab’s viewers if the Third-Party Viewer is in fact connecting to Second Life.
 return to top
 The Viewer Directory and Self-Certification
+We created the Viewer Directory to help promote awareness of Third-Party Viewers within the Second Life community. Unlike the other sections of this Policy, participation in the Viewer Directory is currently not a requirement for connecting to Second Life.
+
 If you are a Developer with a Third-Party Viewer that you would like to list in our Viewer Directory, you must meet the following eligibility criteria:
 You must self-certify your and your Third-Party Viewer’s compliance with this Policy and the Second Life Terms of Service;
 You must provide true and correct information in the Viewer Directory Application Form, and you agree that the information you provide in the fields that are marked by a cross (†) may be published in the publicly available Viewer Directory;
-Your Second Life accounts must be in good standing, must not be suspended, and must never have been permanently banned or terminated; and
+Your Second Life accounts must be in good standing, must not be suspended, and must not have been permanently banned or terminated; and
 You must have valid payment information on file with us or have been age verified by us.
 We may refuse to list or delist a Third-Party Viewer if we determine that any of the above eligibility criteria are not satisfied, or that the Third-Party Viewer violates this Policy or any Linden Lab policy, or for any reason that we determine to be in the best interest of the Second Life community.
 The Viewer Directory is a self-certification program. Linden Lab does not represent or warrant any independent testing or verification of compliance of any application listed in the Viewer Directory. We disclaim all liability associated with applications in the Viewer Directory.
@@ -99,13 +108,13 @@ return to top
 Your Responsibility for Third-Party Viewers
 If you are a user or Developer of Third-Party Viewers:
 
-You are responsible for all uses you make of Third-Party Viewers, and if you are a Developer, you are also responsible for all Third-Party Viewers that you develop or distribute.
+You are responsible for all uses you make of Third-Party Viewers.
 Linden Lab does not provide customer support services for issues related to Third-Party Viewers. If you are a user of a Third-Party Viewer, you may contact us for customer support, but if we believe your issue is related to your Third-Party Viewer, we may not be able to assist you and may direct you to the Developer of the Third-Party Viewer. If you are a Developer, we urge you to provide customer support services for issues related to your Third-Party Viewer.
-All use and distribution of Third-Party Viewers must comply with Linden Lab policies and the law. You must not:
+All use and distribution of Third-Party Viewers must comply with Linden Lab policies and applicable law and must not:
 Violate or promote violation of the Second Life Terms of Service or Community Standards.
-Violate or promote violation of any law or the rights of any individual or entity; or
+Violate or promote violation of any applicable law or the rights of any individual or entity; or
 Expose Second Life users, Linden Lab, or third parties to legal liability or harm as determined by us in our sole discretion.
-You assume all risks, expenses, and defects of any Third-Party Viewers that you use, develop, or distribute. Linden Lab shall not be responsible or liable for any Third-Party Viewers.
+You assume all risks, expenses, and defects of any Third-Party Viewers that you use. Linden Lab shall not be responsible or liable for any Third-Party Viewers.
 If you are a user, we suggest taking reasonable precautions, including virus scanning, before installing and using a Third-Party Viewer. We suggest these precautions even for applications in the Viewer Directory because self-certification is no guarantee of an application’s compliance with this Policy.
 return to top
 Policy Changes, Enforcement, and Termination
@@ -114,6 +123,7 @@ We may analyze any Third-Party Viewer and its code, content, and data for any re
 If a Third-Party Viewer or your use or distribution of it violates this Policy or any Linden Lab policy, your permission to access Second Life using the Third-Party Viewer shall terminate automatically. You acknowledge and agree that we may require you to stop using or distributing a Third-Party Viewer for accessing Second Life if we determine that there is a violation.
 If you are a Third-Party Viewer Developer, you agree to provide any content, data, executables, or for Third-Party Viewers based on our viewers, any source code that we may request to verify compliance with our policies, licenses, the GPL, or the law. If we believe that your Third-Party Viewer is not in compliance, we may request that you add, modify, or remove features, functionality, code or content, and you agree to comply with the request within a reasonable timeframe specified by Linden Lab.
 We may enforce this Policy in our sole discretion, including but not limited to by removing a Third-Party Viewer from the Viewer Directory and suspending or terminating the Second Life accounts of Developers or users of a Third-Party Viewer. We further reserve the right to take any and all technological measures we deem appropriate to block a Third-Party Viewer from accessing Second Life, and to pursue any and all legal and equitable remedies.
+Nothing in this Policy is intended to modify the terms of the GPL.
 return to top
 Definitions
 By “Second Life,” we mean the multi-user online service that we offer, including the servers, software, and content that support the service and simulate the Second Life virtual world environment and our websites and services available from the domain and subdomains of http://secondlife.com..
@@ -125,7 +135,7 @@ By “bot,” we mean a software program that performs specific tasks automatically 
 By “chat client,” we mean any software program that enables a user to exchange text messages with another user in real time.
 By “content,” we mean any works of authorship, creative works, graphics, images, textures, photos, logos, sounds, music, video, audio, computer programs, applications, animations, gestures, text, objects, primitives, scripts, and interactive features.
 By “full permissions,” we mean content that has been set to “copy,” “modify,” and “transfer” using the Second Life permissions system to indicate that the content may be copied, modified, and transferred within Second Life.
-By “PG,” we mean the Second Life maturity rating for content that is appropriate for all audiences as described here.
+By “General,” we mean the Second Life maturity rating for content that is appropriate for all audiences as described here.
 By “griefing,” we mean conduct that intentionally harasses or irritates other users.
 By “GNU General Public License” or “the GPL,” we mean the GNU General Public License version 2.0, a copy of which is available here.
 By “intellectual property rights” or “intellectual property,” we mean copyrights, trademarks, service marks, trade dress, publicity rights, database rights, patent rights, and other intellectual property rights or proprietary rights recognized by law.
